@@ -1,27 +1,70 @@
-# ServicesDeepDive
+# 📝 Angular Services & Dependency Injection
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+Projeto desenvolvido com Angular para fins de estudo e prática de conceitos fundamentais de **injeção de dependências** e **organização de lógica de negócio em services**.  
 
-## Development server
+O objetivo principal deste projeto é consolidar boas práticas do framework, separando responsabilidades entre componentes e serviços.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular 20](https://angular.io/)
+- TypeScript
+- HTML5 & CSS3
+- Vite (via Angular CLI)
+- Node.js & npm
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ✨ Funcionalidades
 
-## Running unit tests
+- Uso de **services** para centralizar regras de negócio
+- Implementação de **dependency injection** em componentes
+- Atualização e gerenciamento de dados via serviços
+- Arquitetura modular e escalável
+- UI simples, focada em aprendizado
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 📸 Screenshots
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 🏠 Tela Inicial
+![Home Screen](public/1-home-screen.png)
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### ➕ Adicionando uma Nova Tarefa
+![Adding a Task](public/2-adding-a-task.png)
+
+---
+
+### 🔄 Alterando o Status da Tarefa
+![Changing Status](public/3-changing-status.png)
+
+---
+
+### 🎯 Filtrando por Status
+![Filter by Status](public/4-filter-by-status.png)
+
+---
+
+## 🛠️ Como Rodar o Projeto
+
+### Pré-requisitos
+
+- Node.js (v18 ou superior)
+- npm (v9 ou superior)
+
+### Instalação
+
+1. Instale as dependências com "npm install"
+
+2. Rode o projeto com "npm start"
+
+A aplicação estará disponível em http://localhost:4200.
+
+---
+
+## 💭 Considerações Finais
+
+Este projeto foi desenvolvido com Angular como parte de um portfólio pessoal, com foco em aprendizado e prática de desenvolvimento front-end moderno.
